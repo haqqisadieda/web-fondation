@@ -103,6 +103,10 @@ hr {
   border: none;
 }
 
+.btn:hover {
+  opacity: 0.75 !important;
+}
+
 @media screen and (max-width: 600px) {
   .hr-misi {
     height: 3px;
