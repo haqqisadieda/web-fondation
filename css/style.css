@@ -17,7 +17,15 @@
 .tentang h3,
 .tentang h4,
 .tentang h5,
-.tentang h6 {
+.tentang h6,
+.visi h3,
+.visi h4,
+.visi h5,
+.visi h6,
+.misi h3,
+.misi h4,
+.misi h5,
+.misi h6 {
   padding-top: 3%;
   padding-bottom: 3%;
 }
@@ -87,4 +95,11 @@ footer {
 hr {
   height: 3px;
   width: 8%;
+  border: none;
+}
+
+.hr-misi {
+  height: 3px;
+  width: 65%;
+  border: none;
 }
