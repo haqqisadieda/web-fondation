@@ -102,3 +102,11 @@ hr {
   width: 65%;
   border: none;
 }
+
+@media screen and (max-width: 600px) {
+  .hr-misi {
+    height: 3px;
+    width: 10%;
+    border: none;
+  }
+}
