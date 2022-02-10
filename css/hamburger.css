@@ -1,7 +1,3 @@
-body.noscroll {
-  overflow: hidden;
-}
-
 .nav-wrapper.open .header__toggle > span:first-child {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
@@ -134,7 +130,6 @@ body.noscroll {
 
 .header__menu a {
   display: block;
-  padding: 0.625rem;
   color: black;
   text-align: center;
 }

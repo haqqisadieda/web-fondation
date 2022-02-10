@@ -1,0 +1,128 @@
+body {
+  &.noscroll {
+    overflow: hidden;
+  }
+}
+
+.rad {
+  border-radius: 20px !important;
+}
+
+.strategies h3,
+.strategies h4,
+.strategies h5,
+.strategies h6,
+.quotes h3,
+.quotes h4,
+.quotes h5,
+.quotes h6,
+.donate h3,
+.donate h4,
+.donate h5,
+.donate h6,
+.tentang h3,
+.tentang h4,
+.tentang h5,
+.tentang h6,
+.visi h3,
+.visi h4,
+.visi h5,
+.visi h6,
+.misi h3,
+.misi h4,
+.misi h5,
+.misi h6 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.testimoni h3,
+.testimoni h4 {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.slider h3,
+.slider h5,
+.services h3,
+.testimoni h3,
+.testimoni h5,
+.testimoni h4,
+.testimoni h6 {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.parallax-container {
+  height: 40%;
+}
+
+.parallax img {
+  opacity: 0.5 !important;
+}
+
+.trans {
+  opacity: 0.9 !important;
+}
+
+footer {
+  padding: 20px 0;
+}
+
+.pad {
+  padding-top: 3% !important;
+  padding-bottom: 3% !important;
+}
+
+.grayscale {
+  filter: grayscale(80%) brightness(0.5);
+}
+
+.brightness {
+  filter: brightness(0.35);
+}
+
+.carousel {
+  height: 300px !important;
+}
+
+.tentang {
+  padding: 50px;
+}
+
+.parallax-container {
+  padding: 50px;
+}
+
+.quotes {
+  padding: 10px;
+}
+
+hr {
+  height: 3px;
+  width: 8%;
+  border: none;
+}
+
+.hr-misi {
+  height: 3px;
+  width: 65%;
+  border: none;
+}
+
+.btn:hover {
+  padding: 0 !important;
+  opacity: 0.75 !important;
+}
+
+@media screen and (max-width: 600px) {
+  .hr-misi {
+    height: 3px;
+    width: 10%;
+    border: none;
+  }
+}
+
+nav {
+  position: relative !important;
+  background-color: white !important;
+}
