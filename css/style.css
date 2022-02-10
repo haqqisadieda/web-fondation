@@ -114,17 +114,20 @@ hr {
   opacity: 0.75 !important;
 }
 
+nav {
+  background-color: white !important;
+}
+
 @media screen and (max-width: 600px) {
   .hr-misi {
     height: 3px;
     width: 10%;
     border: none;
   }
-}
-
-nav {
-  position: relative !important;
-  background-color: white !important;
+  nav {
+    position: relative !important;
+    background-color: white !important;
+  }
 }
 
 .nav-wrapper.open .header__toggle > span:first-child {
