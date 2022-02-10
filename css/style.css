@@ -114,3 +114,8 @@ hr {
     border: none;
   }
 }
+
+nav {
+  position: relative !important;
+  background-color: white !important;
+}
