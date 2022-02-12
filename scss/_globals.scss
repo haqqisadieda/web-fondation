@@ -8,38 +8,27 @@ body {
   border-radius: 20px !important;
 }
 
-.strategies h3,
-.strategies h4,
-.strategies h5,
-.strategies h6,
-.quotes h3,
-.quotes h4,
-.quotes h5,
-.quotes h6,
-.donate h3,
-.donate h4,
-.donate h5,
-.donate h6,
-.tentang h3,
-.tentang h4,
-.tentang h5,
-.tentang h6,
-.visi h3,
-.visi h4,
-.visi h5,
-.visi h6,
-.misi h3,
-.misi h4,
-.misi h5,
-.misi h6 {
-  padding-top: 3%;
-  padding-bottom: 3%;
+.strategies,
+.quotes,
+.donate,
+.tentang,
+.visi,
+.misi {
+  h3,
+  h4,
+  h5,
+  h6 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
 }
 
-.testimoni h3,
-.testimoni h4 {
-  padding-top: 2%;
-  padding-bottom: 2%;
+.testimoni {
+  h3,
+  h4 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
 }
 
 .slider h3,
