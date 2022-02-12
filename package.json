@@ -2,7 +2,7 @@
   "name": "fondation",
   "version": "1.0.0",
   "description": "Foundation Web",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "dev": "node index.js"
   },
