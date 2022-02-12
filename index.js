@@ -2,8 +2,7 @@ const express = require("express");
 const path = require("path");
 
 const app = express();
-const hostname = "web-fondation.pages.dev";
-const port = 3000;
+let PORT = process.env.PORT || 3000;
 
 //template engine setup
 
@@ -28,6 +27,6 @@ app.get("/*", (req, res) => {
   res.status(404).send("404 Not Found");
 });
 
-app.listen(port, () => {
-  console.log(`Aplikasi ini running di http://${hostname}:${port}`);
+app.listen(PORT, () => {
+  console.log(`Aplikasi ini running di : ${PORT}`);
 });
