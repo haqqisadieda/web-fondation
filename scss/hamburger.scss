@@ -23,13 +23,19 @@
     display: block;
     width: 26px;
     height: 3px;
-    background-color: black;
+    background-color: #2196f3;
     transition: all 200ms ease-in-out;
     transform-origin: 2px 1px;
 
     &:not(:last-child) {
       margin-bottom: 5px;
     }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__toggle {
+    padding: 20px 10px 20px 10px;
   }
 }
 
@@ -40,7 +46,7 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-  background-image: linear-gradient(black, transparent);
+  background-image: linear-gradient(#2196f3, transparent);
 }
 
 @keyframes fade-in {
